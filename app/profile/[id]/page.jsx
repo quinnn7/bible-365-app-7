@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import supabase, { isSupabaseConfigured } from "../../../lib/supabaseClient";
-import { DEFAULT_AVATAR } from "../../page";
+import { DEFAULT_AVATAR } from "../../../lib/defaults";
 
 export default function ProfilePage({ params }) {
   const { id } = params;
